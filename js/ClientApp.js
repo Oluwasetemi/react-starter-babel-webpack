@@ -1,6 +1,6 @@
 import React from 'react'
 import {render} from 'react-dom'
-import MyTitle from './MyTitle'
+import {MyTitle, MyFirstComponent} from './MyTitle'
 
 
 var div = React.DOM.div
@@ -33,4 +33,4 @@ var MyFirstComponent = React.createClass({
     }
 })
 
-render(React.createElement(MyFirstComponent), document.getElementById('app'))
+{/*render(, document.getElementById('app'))*/}

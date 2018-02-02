@@ -1,8 +1,15 @@
 const path = require('path')
 
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: './index.html',
+  filename: 'index.html',
+  inject: 'body'
+})
+
 module.exports = {
   context: __dirname,
-  entry: './js/ClientApp.js',
+  entry: './learning.js',
   devtool: 'source-map',
   output: {
     path: path.join(__dirname, '/public'),
@@ -20,8 +27,12 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
+        exclude: /node_modules/,
         loader: 'babel-loader'
       }
     ]
-  }
+  },
+
+  plugins: [HtmlWebpackPluginConfig]
+
 }

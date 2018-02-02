@@ -6,9 +6,9 @@
 /******/ 	function __webpack_require__(moduleId) {
 /******/
 /******/ 		// Check if module is in cache
-/******/ 		if(installedModules[moduleId])
+/******/ 		if(installedModules[moduleId]) {
 /******/ 			return installedModules[moduleId].exports;
-/******/
+/******/ 		}
 /******/ 		// Create a new module (and put it into the cache)
 /******/ 		var module = installedModules[moduleId] = {
 /******/ 			i: moduleId,
@@ -70,7 +70,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-throw new Error("Module build failed: Error: Options \"es2015\" passed to C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\react\\react.js which does not accept options. (While processing preset: \"C:\\\\Users\\\\steven\\\\Documents\\\\GitHub\\\\React\\\\node_modules\\\\react\\\\react.js\")\n    at C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:314:17\n    at Array.map (native)\n    at OptionManager.resolvePresets (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:275:20)\n    at OptionManager.mergePresets (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:264:10)\n    at OptionManager.mergeOptions (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:249:14)\n    at OptionManager.init (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:368:12)\n    at File.initOptions (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:212:65)\n    at new File (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:135:24)\n    at Pipeline.transform (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)\n    at transpile (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-loader\\lib\\index.js:46:20)\n    at Object.module.exports (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-loader\\lib\\index.js:163:20)");
+throw new Error("Module build failed: Error: Options \"es2015\" passed to C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-preset-react\\lib\\index.js which does not accept options. (While processing preset: \"C:\\\\Users\\\\steven\\\\Documents\\\\GitHub\\\\React\\\\node_modules\\\\babel-preset-react\\\\lib\\\\index.js\")\n    at C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:314:17\n    at Array.map (<anonymous>)\n    at OptionManager.resolvePresets (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:275:20)\n    at OptionManager.mergePresets (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:264:10)\n    at OptionManager.mergeOptions (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:249:14)\n    at OptionManager.init (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\options\\option-manager.js:368:12)\n    at File.initOptions (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:212:65)\n    at new File (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\file\\index.js:135:24)\n    at Pipeline.transform (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-core\\lib\\transformation\\pipeline.js:46:16)\n    at transpile (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-loader\\lib\\index.js:46:20)\n    at Object.module.exports (C:\\Users\\steven\\Documents\\GitHub\\React\\node_modules\\babel-loader\\lib\\index.js:163:20)");
 
 /***/ })
 /******/ ]);
