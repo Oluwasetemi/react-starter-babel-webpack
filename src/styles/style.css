@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+#root {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  background-color:#99cc00;
+  padding:10px;
+}
+
+
